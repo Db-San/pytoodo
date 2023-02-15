@@ -37,7 +37,6 @@ def display_tasks():
     for i, task in enumerate(tasks, 1):
         print(f"{i}. {task.strip()}")
 
-
 def add_task():
     dislay_main_menu()
     task = input("\nEnter your task:\n> ")
