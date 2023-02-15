@@ -39,26 +39,20 @@ def display_tasks():
 
 
 def add_task():
-    clear_screen()
-    display_header()
-    display_tasks()
+    dislay_main_menu()
     task = input("\nEnter your task:\n> ")
     with open("tasks.txt", "a") as file:
         file.write(f"{task}\n")
     print("Task added successfully!")
 
 def delete_task():
-    clear_screen()
-    display_header()
-    display_tasks()
+    dislay_main_menu()
     task_index = False
     while task_index is False:
         try:
             task_index = int(input("\nEnter the number of the task you want to delete: "))
         except Exception:
-            clear_screen()
-            display_header()
-            display_tasks()
+            dislay_main_menu()
             continue
         
     with open("tasks.txt", "r") as file:
@@ -106,8 +100,6 @@ def dislay_main_menu():
         display_tasks()
         
 # Main program
-
-
 def main():
     while True:
         dislay_main_menu()
@@ -119,9 +111,7 @@ def main():
         # Process user input
         # [1] - Show all tasks
         if choice == "1":
-            clear_screen()
-            display_header()
-            display_tasks()
+            dislay_main_menu()
 
         # [2] - Add task
         elif choice == "2":
