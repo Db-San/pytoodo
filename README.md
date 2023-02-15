@@ -5,7 +5,7 @@ It allows users to manage their daily tasks and
 keep track of their progress in a terminal window.
 This terminal CLI app is inspired by the [**Study Together**](https://discord.gg/study) discord server.
 
-[![asciicast](https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0.svg)](https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0)
+<a href="https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0" target="_blank"><img src="https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0.svg" /></a>
 
 ## Features
 
