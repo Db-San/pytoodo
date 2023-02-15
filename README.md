@@ -5,7 +5,7 @@ It allows users to manage their daily tasks and
 keep track of their progress in a terminal window.
 This terminal CLI app is inspired by the [**Study Together**](https://discord.gg/study) discord server.
 
-<a href="https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0" target="_blank"><img src="https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0.svg" /></a>
+[![asciicast](https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0.svg)](https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0)
 
 ## Features
 
@@ -32,7 +32,12 @@ $ cd pytoodo
 ## Usage
 
 ```console
-$ python3 pytoodo.py
+python3 pytoodo.py
+```
+
+## Sample Output
+
+```text
 pytoodo / your tasks (4)
 -------------------------
 1. water the plants (living room)
