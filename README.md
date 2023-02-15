@@ -32,7 +32,8 @@ $ cd pytoodo
 ## Usage
 
 ```console
-python3 pytoodo.py
+# exec the script with python3
+$ python3 pytoodo.py
 ```
 
 ## Sample Output
