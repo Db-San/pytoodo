@@ -65,8 +65,6 @@ def delete_task():
             if i != task_index:
                 file.write(f"{task}")
     print("Task deleted successfully!")
-
-
    
 def display_choices():
         print("\nChoices: ")
@@ -103,7 +101,7 @@ def main():
     while True:
         dislay_main_menu()
         
-        # Ask and get user input
+        # Get user choice
         display_choices()
         choice = input("Enter your choice [1-3, q(uit)]\n> ")
         
@@ -111,7 +109,6 @@ def main():
         # [1] - Show all tasks
         if choice == "1":
             dislay_main_menu()
-
         # [2] - Add task
         elif choice == "2":
             add_task()
