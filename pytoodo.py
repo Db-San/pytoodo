@@ -13,7 +13,7 @@ def display_line_art(title_bar_msg: str) -> str:
     style = 4
     
     # len of header
-    number = 25
+    number = len(str(title_bar_msg))
     
     if style == 1:
         string = f">>" + "-"*number + ">"    
