@@ -21,24 +21,18 @@ This terminal CLI app is inspired by the [**Study Together**](https://discord.gg
 
 ## Installation
 
-```console
-# clone the repo
-$ git clone https://github.com/domsalvador/pytoodo.git
-
-# change the working directory to pytoodo
-$ cd pytoodo
+```bash
+sudo apt-get update && sudo apt-get install python3 pip git -y
+git clone https://github.com/Db-San/pytoodo
+cd pytoodo
+pip install -r requirements.txt
+python3 pytoodo.py
 ```
 
-## Usage
-
-```console
-# exec the script with python3
-$ python3 pytoodo.py
-```
-
-## Sample Output
+## Sample Usage Output
 
 ```text
+$ python3 pytoodo.py
 pytoodo / your tasks (4)
 -------------------------
 1. water the plants (living room)
