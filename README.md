@@ -15,11 +15,7 @@ This terminal CLI app is inspired by the [**Study Together**](https://discord.gg
 - **This CLI app** does not share data to 3rd-party companies. **All user data stays** on your device.
 - **Free and Open Source**. As it should be.
 
-## Requirements
-
-- Python 3.x
-
-## Installation
+## Requirements Installation and Usage
 
 ```bash
 sudo apt-get update && sudo apt-get install python3 pip git -y
