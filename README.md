@@ -7,8 +7,6 @@ This terminal CLI app is inspired by the [**Study Together**](https://discord.gg
 
 [![asciicast](https://github.com/domsalvador/pytoodo/raw/main/demo.gif)](https://asciinema.org/a/PBUJJsmfQP1JgD8Jqdl2dtim0)
 
-## Features
-
 - **Stay on track!** Add tasks as needed. Delete tasks when you're done.
 - Your tasks are persistent **in-between** sessions! The app can remember past tasks even after you closed it!
 - It **just works** and **respects your privacy**.
